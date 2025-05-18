@@ -1,0 +1,35 @@
+Send Request
+GET http://localhost:3000/books/1/
+
+###
+Send Request
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+  "id": "ObjectId",
+  "title": "Book Title",
+  "author": "Author Name",
+  "genre": "Fiction",
+  "publishedYear": 2020,
+  "status": "reading",
+  "createdAt": "2025-04-11T00:00:00Z"
+}
+
+
+###
+Send Request
+PUT http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "title": "Updated Book Title",
+  "author": "Updated Author Name",
+  "genre": "Non-Fiction",
+  "publishedYear": 2021,
+  "status": "reading"
+}
+
+###
+Send Request
+DELETE http://localhost:3000/login/2/
